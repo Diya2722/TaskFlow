@@ -12,7 +12,14 @@ connectDB();
 
 const app = express();
 
-app.use(cors({ origin: 'http://localhost:5173', credentials: true }));
+app.use(cors({
+  origin: [
+    'http://localhost:5173',
+    // 'https://your-frontend-domain.vercel.app',   // if using Vercel
+    'https://taskflow-u71j.onrender.com'     // if using Render
+  ],
+  credentials: true
+}));
 app.use(express.json());
 app.use(cookieParser());
 
