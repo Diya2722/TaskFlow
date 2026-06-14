@@ -16,11 +16,10 @@ const app = express();
 app.use(cors({
   origin: [
     'http://localhost:5173',
-    'https://taskflow-u71j.onrender.com',     // ← Your Render Backend URL
-    // Add your frontend URL here later (Vercel or Render)
+    'https://taskflow-u71j.onrender.com'
   ],
-  credentials: true,        // Important for cookies
-  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
 
