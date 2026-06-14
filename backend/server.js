@@ -17,7 +17,7 @@ app.use(cors({
   origin: [
     'http://localhost:5173',
     'https://taskflow-u71j.onrender.com',
-    'task-flow-cyan-seven.vercel.app',
+    'https://task-flow-cyan-seven.vercel.app/',
   ],
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
