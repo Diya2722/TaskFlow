@@ -2,7 +2,6 @@
 
 **A modern, beautiful, and full-featured Task Management Application** with Kanban Board, Calendar, Dashboard, and more.
 
-![TaskFlow Banner](https://via.placeholder.com/1200x400/7C3AED/FFFFFF?text=TaskFlow+-+Stay+Organized)
 
 ## 📋 About The Project
 
